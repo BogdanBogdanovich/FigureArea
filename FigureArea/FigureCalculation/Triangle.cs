@@ -13,7 +13,9 @@ public class Triangle : Calculation
                                         figureParameter.ThirdSide;//Вычисление периметра
             double semiPer = 0.5 * figureParameter.Perimeter;//Полупериметр
             
-            figureParameter.Area = Math.Sqrt(semiPer * (semiPer - figureParameter.FirstSide) * (semiPer - figureParameter.SecondSide) * (semiPer - figureParameter.ThirdSide));//Вычисление площади
+            figureParameter.Area = Math.Sqrt(semiPer * (semiPer - figureParameter.FirstSide) * 
+                                             (semiPer - figureParameter.SecondSide) * 
+                                             (semiPer - figureParameter.ThirdSide));//Вычисление площади
 
             figureParameter.Messege += $"Площадь треугольника равна {Math.Round(figureParameter.Area, 2)};\n{RightTriangle(figureParameter)}";
             return figureParameter;
