@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea.Test\\FigureArea.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea.Test\\FigureArea.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea.Test\\FigureArea.Test.csproj",
+        "projectName": "FigureArea.Test",
+        "projectPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea.Test\\FigureArea.Test.csproj",
+        "packagesPath": "C:\\Users\\Фарид\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Фарид\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\FigureArea.csproj": {
+                "projectPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\FigureArea.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\FigureArea.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\FigureArea.csproj",
+        "projectName": "FigureArea",
+        "projectPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\FigureArea.csproj",
+        "packagesPath": "C:\\Users\\Фарид\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Фарид\\OneDrive\\Рабочий стол\\FigureArea\\FigureArea\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Фарид\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

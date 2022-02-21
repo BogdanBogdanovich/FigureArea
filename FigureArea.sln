@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{26B8B35B-ECE9-4E11-88BC-B356EE7AD849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseFigureArea", "UseFigureArea\UseFigureArea.csproj", "{EF5FE075-A5B0-45BE-A861-CB4E76171CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea.Test", "FigureArea.Test\FigureArea.Test.csproj", "{FB19F909-B766-4091-B2EB-765422258A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26B8B35B-ECE9-4E11-88BC-B356EE7AD849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B8B35B-ECE9-4E11-88BC-B356EE7AD849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B8B35B-ECE9-4E11-88BC-B356EE7AD849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B8B35B-ECE9-4E11-88BC-B356EE7AD849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5FE075-A5B0-45BE-A861-CB4E76171CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5FE075-A5B0-45BE-A861-CB4E76171CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5FE075-A5B0-45BE-A861-CB4E76171CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5FE075-A5B0-45BE-A861-CB4E76171CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB19F909-B766-4091-B2EB-765422258A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB19F909-B766-4091-B2EB-765422258A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB19F909-B766-4091-B2EB-765422258A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB19F909-B766-4091-B2EB-765422258A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
