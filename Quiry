@@ -18,32 +18,35 @@ CREATE TABLE [ProductCategory](
 	CONSTRAINT FK_catrgory_catrgory FOREIGN KEY (idCategory) REFERENCES Category(idCategory)
 );
 --Добавление данных
-INSERT INTO Category(idCategory, NameCategory) values (1,'Продукты'),
-													  (2,'Техника'),
-													  (3,'Планеты'),
-													  (4,'Одежда');
+INSERT INTO Category(idCategory, NameCategory)
+values (1,'Продукты'),
+       (2,'Техника'),
+       (3,'Планеты'),
+       (4,'Одежда');
 
-INSERT INTO Product(idProduct, NameProduct) values (1,'Огурцы'),
-												   (2,'Венера'),
-												   (3,'Куртка'),
-												   (4,'Трактор'),
-												   (5,'Помидоры'),
-												   (6,'Автомобиль'),
-												   (7,'Брюки'),
-												   (8,'Юпитер'),
-												   (9,'Экзоскелет'),
-												   (10,'Брекеты');
+INSERT INTO Product(idProduct, NameProduct)
+values (1,'Огурцы'),
+       (2,'Венера'),
+       (3,'Куртка'),
+       (4,'Трактор'),
+       (5,'Помидоры'),
+       (6,'Автомобиль'),
+       (7,'Брюки'),
+       (8,'Юпитер'),
+       (9,'Экзоскелет'),
+       (10,'Брекеты');
 
-INSERT INTO ProductCategory(idProduct, idCategory) values (1,1),
-														  (2,3),
-														  (3,4),
-														  (4,2),
-														  (5,1),
-														  (6,2),
-														  (7,4),
-														  (8,3),
-														  (9,2),
-														  (9,4);
+INSERT INTO ProductCategory(idProduct, idCategory) 
+values (1,1),
+       (2,3),
+       (3,4),
+       (4,2),
+       (5,1),
+       (6,2),
+       (7,4),
+       (8,3),
+       (9,2),
+       (9,4);
 
 --Запрос на вывод названия продукта и названия категории через '-'														  
 SELECT (p.NameProduct + ' - ' + c.NameCategory) AS PCName 
